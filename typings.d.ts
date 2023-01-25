@@ -1,5 +1,3 @@
-import { Reference } from "sanity";
-
 type Base = {
   _createdAt: string;
   _id: string;
