@@ -2,6 +2,10 @@
 module.exports = {
   reactStrictMode: true,
   experimental: {
-    appDir: true
-  }
-}
+    appDir: true,
+  },
+  // Whitelist images from these domains
+  images: {
+    domains: ["cdn.sanity.io"],
+  },
+};
